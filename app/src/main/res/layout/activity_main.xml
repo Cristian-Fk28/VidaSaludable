@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnResultados"
+        android:layout_width="260dp"
+        android:layout_height="85dp"
+        android:backgroundTint="#C8D1BD"
+        android:text="DIETAS SALUDABLES"
+        android:textColor="#0B0B0B"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.366" />
+
+    <ImageButton
+        android:id="@+id/btnFresa"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#F9DC5B5B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.263"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.529"
+        app:srcCompat="@drawable/fresa" />
+
+    <ImageButton
+        android:id="@+id/btnImc"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#F0F1EDE8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.761"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.879"
+        app:srcCompat="@drawable/imc" />
+
+    <ImageButton
+        android:id="@+id/btnPinia"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#CEF3DB06"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.761"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.703"
+        app:srcCompat="@drawable/pinia" />
+
+    <ImageButton
+        android:id="@+id/btnNaranja"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#D1F1A41E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.761"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.529"
+        app:srcCompat="@drawable/naranja" />
+
+    <ImageButton
+        android:id="@+id/btnSandia"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#F52E670A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.263"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.879"
+        app:srcCompat="@drawable/sandia" />
+
+    <ImageButton
+        android:id="@+id/btnPalta"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#F59DEF6A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.263"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.703"
+        app:srcCompat="@drawable/palta" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

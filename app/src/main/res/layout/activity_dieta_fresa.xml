@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondofresaa"
+    tools:context=".DietaFresa">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dieta de la Fresa"
+                android:textColor="#F8F5F5"
+                android:textColorHighlight="#FAF6F6"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/btnFresa"
+                android:layout_width="123dp"
+                android:layout_height="129dp"
+                android:backgroundTint="#F3B0B0"
+                app:srcCompat="@drawable/fresa"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="373dp"
+                android:layout_height="158dp"
+                android:text=" Lavamos bien las fresas, quitamos las partes verdes, las troceamos y las echamos en la batidora. Pelamos el plátano, lo troceamos y lo agregamos a la batidora. Vertemos la leche de soja. Añadimos el edulcorante líquido. Batimos durante un par de minutos o hasta que quede suave y uniforme. Vertemos el batido en un vaso y decoramos a nuestro gusto (opcional). Insertamos una pajita y a disfrutar."
+                android:textColor="#F8F5F5"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="129dp"
+                android:layout_height="93dp"
+                app:srcCompat="@drawable/frutas__1" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="190dp"
+                android:layout_height="39dp"
+                android:text="RECETA PASO A PASO:"
+                android:textColor="#F8F5F5"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="384dp"
+                android:layout_height="136dp"
+                android:text="Hay distintas versiones de esta dieta, algunas de ellas duran tres días y otras se alargan toda la semana, pero hay puntos que son comunes a ambas. Por ejemplo, hacer cinco comidas al día, beber dos litros de agua diarios y, sobre todo, comer fresas, unos 400 gramos aproximadamente en cada una de las ingestas."
+                android:textColor="#F8F5F5"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:text="Beneficios de la fresa  :"
+                android:textColor="#F8F5F5"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="384dp"
+                android:layout_height="210dp"
+                android:text="La fresa es una fruta muy rica en antioxidantes, fibra y minerales (magnesio, manganesio, potasio), que aporta flavonoides y vitaminas (C, B2, B3, ácido fólico) y que tiene un bajo contenido en azúcares y calorías.  Asimismo, la fresa ayuda prevenir las enfermedades cardiovasculares, de hipercolesterolemia, y de arteroesclerosis. Asimismo, también relacionan el consumo de fresas con una mejor salud mental, ya que el consumo de esta fruta podría ayudar a retrasar el envejecimiento del cerebro."
+                android:textColor="#F8F5F5"
+                android:textSize="15dp" />
+
+            <VideoView
+                android:id="@+id/videoView1"
+                android:layout_width="match_parent"
+                android:layout_height="222dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

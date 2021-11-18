@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vidasaludable">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VidaSaludable">
+        <activity
+            android:name=".Splash7"
+            android:exported="true" />
+        <activity
+            android:name=".Splash6"
+            android:exported="true" />
+        <activity
+            android:name=".Splash5"
+            android:exported="true" />
+        <activity
+            android:name=".Splash4"
+            android:exported="true" />
+        <activity
+            android:name=".Splash3"
+            android:exported="true" />
+        <activity
+            android:name=".Splash2"
+            android:exported="true" />
+        <activity
+            android:name=".MasaCorporal"
+            android:exported="true" />
+        <activity
+            android:name=".DietaPinia"
+            android:exported="true" />
+        <activity
+            android:name=".DietaSandia"
+            android:exported="true" />
+        <activity
+            android:name=".DietaNaranja"
+            android:exported="true" />
+        <activity
+            android:name=".DietaPalta"
+            android:exported="true" />
+        <activity
+            android:name=".DietaFresa"
+            android:exported="true" />
+        <activity
+            android:name=".Splash"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Splash1"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
